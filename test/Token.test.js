@@ -4,7 +4,6 @@ require('chai')
 	.use(require('chai-as-promised'))
 	.should()
 
-
 const Token = artifacts.require('./Token')
 
 contract('Token', ([deployer, sender, receiver, exchange]) => {
